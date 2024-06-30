@@ -26,7 +26,7 @@ def page():
 
         # Logs user in
         def login():
-            user=auth.get_user_by_email(email)
+            user=auth.get_user_by_email(email = email)
             st.session_state.username = user.uid
             st.session_state.useremail = user.email
             st.session_state.signedout = True
