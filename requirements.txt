@@ -4,3 +4,4 @@ firebase_admin
 pandas
 altair
 plotly
+streamlit_extras
